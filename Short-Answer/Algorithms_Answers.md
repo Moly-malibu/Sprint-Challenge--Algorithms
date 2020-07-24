@@ -2,13 +2,13 @@
 
 ## Exercise I
 
-a)Exponential O(n^3) time complexity -> the number of operations will increase n **3 or n*n*n times as the data set increases.
+a)Exponential O(n) time complexity -> the number of operations will increase n **3 or n*n*n times as the data set increases.
 
-<!-- a)  a = 0
+<!--  a = 0
           while (a < n * n * n):
             a = a + n * n -->
 
-b) Exponential O(n^2)  the number of operations will increase n^2 times as the data set increases, it has a nested while loop inside of a for loop.
+b) Exponential O(n log n)  the number of operations will increase n^2 times as the data set increases, it has a nested while loop inside of a for loop.
 
  <!-- sum = 0
       for i in range(n):
